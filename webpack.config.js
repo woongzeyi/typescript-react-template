@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
 
   // Info
-  entry: path.resolve(__dirname, 'src', 'index.js'), // ./src/index.js
+  entry: path.resolve(__dirname, 'src', 'index.jsx'), // ./src/index.js
   output: {
     path: path.resolve(__dirname, 'dist'), // ./dist
     filename: 'main.js',
@@ -24,20 +24,12 @@ module.exports = {
   module: {
     rules: [
 
-      // Babel -- Compiler for .js and .jsx
+      // Babel -- Compiler for .js .jsx .ts .tsx
       {
-        test: /\.(jsx|js)$/,
+        test: /\.(jsx|js|ts|tsx)$/,
         include: path.resolve(__dirname, 'src'), // ./src
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: [
-              ['@babel/preset-env', { "targets": "defaults" }],
-              '@babel/preset-react'
-            ]
-          }
-        }
+        loader: 'babel-loader',
       },
 
       // Sass -- Compiler for .scss and .sass

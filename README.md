@@ -1,8 +1,9 @@
-# Example React App
+# Example TypeScript React App
 This is a public template for anyone to use. 
 
 ## Dependencies
 - Webpack -- For building the application into a single script
+- TypeScript -- Superset of JavaScript, introduces static typing
 - React -- A JavaScript library for building user interfaces
 - Babel -- Making scripts compatible with past ES versions
 - Sass -- Better CSS

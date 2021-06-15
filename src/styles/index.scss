@@ -1,4 +1,4 @@
-// TEST: Any div in HTML will have font size of 100 pixels
-div {
-    font-size: 100px;
+// TEST: Any h1 in HTML will have larger font size
+h1 {
+    font-size: larger;
 }
