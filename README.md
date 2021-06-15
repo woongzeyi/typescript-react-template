@@ -2,10 +2,10 @@
 This is a public template for anyone to use. 
 
 ## Dependencies
-- Webpack
-- React
-- Babel
-- Sass
+- Webpack -- For building the application into a single script
+- React -- A JavaScript library for building user interfaces
+- Babel -- Making scripts compatible with past ES versions
+- Sass -- Better CSS
 
 ## How to use
 1. Click "Use this template" to initialize your own project.
@@ -14,14 +14,15 @@ This is a public template for anyone to use.
 4. Have fun coding!
 
 ## Alterable variables
-Users who are using this template should change the following variable before starting development.
-### package.json
-- name
-- description
-- repository.url
-- author
-- bugs.url
-- homepage
-### index.html
-- title
-- description meta
+Users who are using this template should change the following variables before starting development.
+1. package.json
+    - name
+    - description
+    - repository.url
+    - author
+    - bugs.url
+    - homepage
+2. index.html
+    - title
+    - description meta
+3. README.md
