@@ -1,0 +1,38 @@
+{
+  "name": "ExampleReactApp",
+  "version": "1.0.0",
+  "description": "A template for everyone to use",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleHillMYR/ExampleReactApp.git"
+  },
+  "keywords": [],
+  "author": "Little Hill MYR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LittleHillMYR/ExampleReactApp/issues"
+  },
+  "homepage": "https://github.com/LittleHillMYR/ExampleReactApp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "sass": "^1.35.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
