@@ -1,4 +1,4 @@
-# Example TypeScript React App
+# TypeScript React App Template
 This is a public template for anyone to use. 
 
 ## Dependencies
