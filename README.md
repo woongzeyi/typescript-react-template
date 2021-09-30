@@ -10,7 +10,7 @@ This is a public template for anyone to use.
 
 ## How to use
 1. Click "Use this template" to initialize your own project.
-2. Alter variables as listed in [`Alterable variables`](#Alterable variables)
+2. Alter variables as listed in [`Alterable variables`](#alterable-variables)
 3. Run `npm install` to install all the dependencies
 4. Have fun coding!
 
